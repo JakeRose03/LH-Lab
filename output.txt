@@ -1,0 +1,78 @@
+Initialized native services in: /home/unixname/.gradle/native
+Initialized jansi services in: /home/unixname/.gradle/native
+Received JVM installation metadata from '/usr/lib/jvm/java-21-openjdk-amd64': {JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64, JAVA_VERSION=21.0.6, JAVA_VENDOR=Ubuntu, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.6+7-Ubuntu-124.04.1, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.6+7-Ubuntu-124.04.1, VM_VENDOR=Ubuntu, OS_ARCH=amd64}
+The client will now receive all logging from the daemon (pid: 9182). The daemon log file: /home/unixname/.gradle/daemon/8.2/daemon-9182.out.log
+Starting 4th build in daemon [uptime: 29 mins 47.493 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 21% of 384 MiB]
+Using 8 worker leases.
+Now considering [/home/unixname/lh-examples/quickstart/java] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/home/unixname/lh-examples/quickstart/java/settings.gradle'.
+Projects loaded. Root project using build file '/home/unixname/lh-examples/quickstart/java/build.gradle'.
+Included projects: [root project 'lh-quickstart-java']
+
+> Configure project :
+Evaluating root project 'lh-quickstart-java' using build file '/home/unixname/lh-examples/quickstart/java/build.gradle'.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+All projects evaluated.
+Task name matched 'run'
+Selected primary task 'run' from project :
+The configuration :mainSourceElements is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':run']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#286,Execution worker,5,main]) started.
+:compileJava (Thread[#286,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+No compile result for :compileJava
+Resolve mutations for :processResources (Thread[#286,Execution worker,5,main]) started.
+:processResources (Thread[#286,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#286,Execution worker,5,main]) started.
+:classes (Thread[#286,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :run (Thread[#286,Execution worker,5,main]) started.
+:run (Thread[#286,Execution worker,5,main]) started.
+
+> Task :run
+Caching disabled for task ':run' because:
+  Build cache is disabled
+Task ':run' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Starting process 'command '/usr/lib/jvm/java-21-openjdk-amd64/bin/java''. Working directory: /home/unixname/lh-examples/quickstart/java Command: /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -cp /home/unixname/lh-examples/quickstart/java/build/classes/java/main:/home/unixname/lh-examples/quickstart/java/build/resources/main:/home/unixname/.gradle/caches/modules-2/files-2.1/io.littlehorse/littlehorse-client/0.12.5/8d2a5c6d8407ffc1f6a31367580502ad3571d086/littlehorse-client-0.12.5.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j2-impl/2.20.0/155c8b9bbdac91d8461d9a403a646e6bd0d365d8/log4j-slf4j2-impl-2.20.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.9.0/37fe2217f577b0b68b18e62c4d17a8858ecf9b69/json-path-2.9.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.11/ad96c3f8cf895e696dd35c2bc8e8ebe710be9e6d/slf4j-api-2.0.11.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.awaitility/awaitility/4.2.0/2c39784846001a9cffd6c6b89c78de62c0d80fb8/awaitility-4.2.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/11.20.1/8d1ecd62d31945534a7cd63062c3c48ff0df9c43/oauth2-oidc-sdk-11.20.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.2/4724a65ac8e8d156a24898d50fd5dbd3642870b8/jackson-annotations-2.15.2.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.2/a6fe1836469a69b3ff66037c324d75fc66ef137c/jackson-core-2.15.2.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.15.2/58194ff9f51915ad6bf6b6f24818232d7566418a/jackson-dataformat-yaml-2.15.2.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.2/9353b021f10c307c00328f52090de2bdb4b6ff9c/jackson-databind-2.15.2.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.56.1/224e50d3dcae2bb9c76e6f55a42b0c225e8372b8/grpc-netty-shaded-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-services/1.56.1/c3c742d30eef42552e99265909df6e43903901ba/grpc-services-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.56.1/d2d113ae665eb2d5d762f46ecab1403d58b5455/grpc-protobuf-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.56.1/d016c4ad3c880fafe6e943ce07000a7f25748742/grpc-stub-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.23.4/a6f68e7f4edfcbe7b9cbce1bf2923dc62d9aa0bd/protobuf-java-util-3.23.4.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.17.0/7edf1e3aa96dc3861f7a8f24556c714e9c5b292/proto-google-common-protos-2.17.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.23.4/5cc1be17aed4e1e396c6b5359518f369a42ebc37/protobuf-java-3.23.4.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/annotations-api/6.0.53/94cfa8a6ebc6b36e966bff433d4eeebf933f3f41/annotations-api-6.0.53.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.20.0/eb2a9a47b1396e00b5eee1264296729a70565cc0/log4j-core-2.20.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.20.0/1fe6082e660daf07c689a89c94dc0f49c26b44bb/log4j-api-2.20.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/9420ba32c29217b54eebd26ff7f9234d31c3fbb2/hamcrest-2.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/ef31541dd28ae2cefdd17c7ebf352d93e9058c63/jcip-annotations-1.0-1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.nimbusds/content-type/2.3/e3aa0be212d7a42839a8f3f506f5b990bcce0222/content-type-2.3.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.5.1/4c11d2808d009132dfbbf947ebf37de6bf266c8e/json-smart-2.5.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.7/97c73ecd70bc7e8eefb26c5eea84f251a63f1031/lang-tag-1.7.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/9.40/42b1dfa0360e4062951b070bac52dd8d96fd7b38/nimbus-jose-jwt-9.40.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.0/3aab2116756442bf0d4cd1c089b24d34c3baa253/snakeyaml-2.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.56.1/8efb76427535ae4eb5870b38659aac44c1cb42e6/grpc-core-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.56.1/3083fba50516ba9e96ff1707e14ce2a53fee4baf/grpc-protobuf-lite-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.56.1/2d5926f424d2ee2f0dd1146d6ea047d143642427/grpc-api-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.1-jre/6e5d51a72d142f2d40a57dfb897188b36a95b489/guava-32.0.1-jre.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.26.0/ef65452adaf20bf7d12ef55913aba24037b82738/perfmark-api-0.26.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/2.5.1/19b820261eb2e7de7d5bde11d1c06e4501dd7e5f/accessors-smart-2.5.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.23/3c0daebd5f0e1ce72cc50c818321ac957aeb5d70/animal-sniffer-annotations-1.23.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.56.1/3681b1caf41af1da0c4a3ffec47ab4a3d907c190/grpc-context-1.56.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar:/home/unixname/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.6/aa205cf0a06dbd8e04ece91c0b37c3f5d567546a/asm-9.6.jar io.littlehorse.quickstart.Main register
+Successfully started process 'command '/usr/lib/jvm/java-21-openjdk-amd64/bin/java''
+10:55:35 [32mINFO [m [LH] ConfigBase - Loading default config from environment
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_API_HOST unset, defaulting to: localhost
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_API_PORT unset, defaulting to: 2023
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_CA_CERT unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_CLIENT_CERT unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_CLIENT_KEY unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_API_PROTOCOL unset, defaulting to: PLAINTEXT
+10:55:35 [33mWARN [m [LH] LHConfig - Using insecure channel!
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_GRPC_KEEPALIVE_TIME_MS unset, defaulting to: 45000
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_GRPC_KEEPALIVE_TIMEOUT_MS unset, defaulting to: 5000
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_OAUTH_CLIENT_ID unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_OAUTH_CLIENT_SECRET unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_OAUTH_ACCESS_TOKEN_URL unset, defaulting to: null
+10:55:35 [33mWARN [m [LH] LHConfig - OAuth is disable
+10:55:35 [33mWARN [m [LH] ConfigBase - Config: LHC_TENANT_ID unset, defaulting to: default
+
+> Task :run FAILED
+3 actionable tasks: 1 executed, 2 up-to-date
